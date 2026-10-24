@@ -1,6 +1,6 @@
 # AutoPat · 自动摸头
 
-> 按可配置的间隔，自动对周围的玩家（或所有生物）执行「摸头」动作。客户端模组，依赖 [PatPat](https://modrinth.com/mod/patpat)。
+> 按可配置的间隔，自动对周围的玩家（或所有生物）执行「摸头」动作。客户端模组，依赖 PatPat。
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-informational)
 ![Forge](https://img.shields.io/badge/Forge-47.3.33-informational)
@@ -23,14 +23,14 @@ AutoPat 是一个纯客户端的装饰性模组：开启后每隔固定刻数扫
 | 全部摸头 | 对半径 128 格内的所有生物（`LivingEntity`）自动摸头，排除自己 |
 | 可调间隔 | 1 ~ 200 tick（默认 20 tick = 1 秒），间隔越长越不显眼 |
 | 游戏内设置界面 | 按 `Y` 打开，两个开关 + 间隔输入框，改完立即生效 |
-| 与 OrderFlow 联动 | 同时安装 [OrderFlow](https://github.com/) 时，会自动把设置入口挂到 OrderFlow 的设置界面；否则按 `Y` 打开独立界面 |
+| 与 OrderFlow 联动 | 同时安装 [OrderFlow](https://github.com/MnO4-Hello/OrderFlow) 时，会自动把设置入口挂到 OrderFlow 的设置界面；否则按 `Y` 打开独立界面 |
 
 ## 环境要求
 
 - Minecraft **1.20.1**
 - Minecraft Forge **47.3.33**（47.x 均可）
 - Java **17**
-- 强烈建议安装 [PatPat](https://modrinth.com/mod/patpat)；不装则无实际动画
+- 强烈建议安装 PatPat；不装则无实际动画
 
 ## 安装
 
